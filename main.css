@@ -59,22 +59,18 @@ header {
 }
 
 #Hero_section {
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: auto;
-    background: linear-gradient(rgba(25,25,25,0.7), rgba(25,25,25,0.7)),
-                url("hero_img.jpeg");
+    background: linear-gradient(rgba(25,25,25,0.7)), 
+                url("hero_img.jpeg") no-repeat center center/cover;
     color: #E6E8E6;
-    background-position: center;
     width: 60vw;
     height: 50vh;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
-
 #hero_h1 {
     color: #BB7E8C;
     background: #191919;
